@@ -36,14 +36,6 @@ Django를 활용한 웹사이트 개발
  - clinvar에서 제공하는 vcf파일을 불러와 데이터 가공 후 데이터에 저장 후 검색 기능(search)
  - 공통 기능 : 예시 파일 제공 및 레포트 다운로드 기능
 {% include gallery %}
-### 코드
-* search
-clinvar 사이트에서 정규식으로 해당하는 데이터를 찾는 부분  
-찾은 파일 저장 후 압축을 풂
-{% gist 708313a691edbcf771f761afe9dfe5b3 %}
-* snpedia crawling
-snpedia에서 beautifulSoup를 이용하여 받은 html코드에서 일부 데이터를 가지고 orderedDict로 변환화는 코드
-{% gist d985a61375300e93246987474105c3a0 %}
 
 ## 어려웠던 점  
 주로 사용하던 언어가 java여서 python을 공부해야 했다.  
