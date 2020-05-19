@@ -14,7 +14,7 @@ last_modified_at: 2020-05-19
 django로도 접근하고 spring으로 접근하는 구조(?), 부분(?)이 있다.  
 설마하는 마음에 models를 테이블 스키마를보고 한땀한땀 만들어야하나 고민했지만..  
 방법은 있었다.. 역시 이맛에 장고를 하는게 아닐까  
-현재 프로젝트이름은 ** bigdata **, app 은 ** api **가 있다.  
+현재 프로젝트이름은 **bigdata**, app 은 **api**가 있다.  
 ![image1](/assets/images/post/200519-1.JPG)
 
 
