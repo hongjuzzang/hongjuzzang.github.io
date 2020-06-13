@@ -9,13 +9,13 @@ toc_sticky: true
 gallery:
   - url: assets/images/port/webforlab/zip-info.gif
     image_path: assets/images/port/webforlab/th-info.png
-    alt: "메인 화면"
+    alt: "low quality marker"
   - url: assets/images/port/webforlab/zip-search.gif
     image_path: assets/images/port/webforlab/th-search.png
-    alt: "레시피 검색"
+    alt: "clinvar"
   - url: assets/images/port/webforlab/zip-snp.gif
     image_path: assets/images/port/webforlab/th-snp.png
-    alt: "식품 검색"
+    alt: "SNPedia"
 ---
 Django를 활용한 웹사이트 개발
 ## 프로젝트 소개  

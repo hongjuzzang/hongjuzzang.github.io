@@ -379,7 +379,7 @@ section:last-child {
 		</div>
 		
 		<div id="name">
-			<h2 class="quickFade delayThree">not yet prepared 😪</h2>
+			{% comment %} <h2 class="quickFade delayThree">not yet prepared 😪</h2> {% endcomment %}
 			<h1 class="quickFade delayTwo">Hongju Kim</h1>
 			<!-- <h2 class="quickFade delayThree">SW Programmer</h2> -->
 		</div>
@@ -444,30 +444,36 @@ section:last-child {
 			
 			<div class="sectionContent">
 				<article>
+					<h2>Room of Truth</h2>
+					<p class="subDetails">May 2020 - Jun 2020</p>
+                    <p> 
+                        Real estate transaction history service.
+						</p>
+                    <p> 
+					Backend(django):  
+					data visualization, hybrid recommendation service, data preprocessing
+                    </p>
+				</article>
+				<article>
+					<h2>YUMMY</h2>
+					<p class="subDetails">Mar 2020 - May 2020</p>
+                    <p> 
+                        Travel planner</p>
+                    <p> Backend(django):  
+					planner CRUD, database structure design, user-based recommendation service
+                         </p>
+				</article>
+				<article>
 					<h2>Sentimental SNS</h2>
 					<p class="subDetails">Jan 2020 - Mar 2020</p>
                     <p> 
-                        Users can post sentimental writings from 11 p.m. to 5 a.m.
-                        provided service: comment, follow, likes, trend(chart, word-cloud), notification, automatically recommend hashtags, change the background by the weather.
-                    </p>
-				</article>
-				
-				<article>
-					<h2>SafeFood Web Site</h2>
-					<p class="subDetails">Nov 2019 - Nov 2019<p>
-                        <p>
-                            Search for the food recipes &and show related videos on Youtube. (Using APIs)
-                            
-                        </p>
-				</article>
-
-				<article>
-					<h2>project name</h2>
-					<p class="subDetails">Aug 2019 - December 2006</p>
+                        Social network service with sentimental mood.</p>
                     <p> 
-
+                        Frontend(vue.js):  
+						make components : comment, follow, likes, trend(chart, word-cloud), notification, change the background by the weather.
                     </p>
 				</article>
+{% comment %} 
 
 				<article>
 					<h2>Development of AMSM standards application specification management function</h2>
@@ -476,7 +482,7 @@ section:last-child {
                         The project is intended to provide information on the components of the System of System.
                         Use Java to convert an XML files as a Java Object and store it in the database. While converting process, the program catches errors both grammatically and contently.
                     </p>
-				</article>
+				</article> {% endcomment %}
 			</div>
 			<div class="clear"></div>
 		</section>
@@ -489,11 +495,13 @@ section:last-child {
 				<article>
 					<h3>Internship - Diagnomics, San Diego</h3>
 					<p class="subDetails">Aug 2019 - Feb 2020</p>
+					<p class="subDetails">Built web application(django)</p>
 				</article>
                 <br />
 				<article>
                     <h3>Internship - ETRI, Daejeon</h3>
 					<p class="subDetails">Jun 2019 - Aug 2019</p>
+					<p class="subDetails">Built an application with Unity, MS Hololens</p>
 				</article>
 				
                 <br />
@@ -514,7 +522,8 @@ section:last-child {
 					<li>Spring</li>
 					<li>Vue.js</li>
 					<li>Python</li>
-					<li>BigData</li>
+					<li>Django</li>
+					<li>Data analysis</li>
 				</ul>
 			</div>
 			<div class="clear"></div>
