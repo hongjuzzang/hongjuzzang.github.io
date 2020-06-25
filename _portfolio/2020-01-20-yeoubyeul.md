@@ -26,6 +26,8 @@ gallery:
   Django 3.0.x  
   MYSQL 8.0.x  
   Vue.js + vuetify  
+
+
 ### 개발 기간  
 2020-01-20 ~ 2020-02-21(약 5주)
 
@@ -40,6 +42,11 @@ gallery:
 - 일정 수 좋아요 받은 게시물은 명예의 전당 등극  
 - 알림센터 기능, 메인피드(무한스크롤)  
 
+## 시스템 아키텍쳐  
+ ![system architecture](/assets/images/port/yeoubyeol/system_architecture.png)  
+
+
+## 프로젝트 이미지  
 {% include gallery %}
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Web For Lab(가제)"
+title: "Web For Lab"
 excerpt: "Django를 활용한 웹사이트 개발"
 header:
   teaser: /assets/images/port/webforlab/teaser.png
