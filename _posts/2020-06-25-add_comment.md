@@ -1,5 +1,5 @@
 ---
-title:  "minimal-mistakes에 utterances 댓글기능 추가하기"
+title:  "jekyll blog theme(minimal-mistakes)에 utterances 댓글기능 추가하기"
 excerpt: "minimal-mistakes에 utterances 댓글기능 추가하기 A to Z"
 
 categories:
