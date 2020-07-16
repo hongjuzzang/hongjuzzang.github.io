@@ -33,7 +33,7 @@ tags:
    어떤 기능을 구현할 때, 다른 객체의 기능을 호출해 구현하는 것  
 
 #### 클래스 다이어그램  
-![img](/assets/images/post/200715-stpt.png)
+![img](/assets/images/post/200715-stpt.png)  
 Strategy를 갖는 Context가 각각의 전략에서 (ConcreteStrategyA/B) 용도에 맞는 execute()를 호출할 수 있음  
 
 
