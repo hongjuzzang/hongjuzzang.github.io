@@ -15,7 +15,7 @@ tags:
 [2. github repository(Design Pattern)](https://github.com/hongjuzzang/DesignPattern)  
 
 
-### Sec.3 : 싱글톤 패턴(Singleton Pattern)  
+### Sec.5 : 싱글톤 패턴(Singleton Pattern)  
 생성자가 여러차례 호출되더라도 실제로 생성되는 객체는 하나이고, 최초 생성 이후 호출된 생성자는 최초 생성자가 생성한 객체를 리턴한다.  
 주로 공통된 객체를 여러개 생성해서 사용하는 DBCP(DataBase connection Pool)에서 사용한다.  
 
@@ -25,12 +25,12 @@ tags:
 * 인스턴스 : 속성과 기능을 가진 것 중 실제하는 것  
 
 
-* 객체, 인스턴스의 차이  
+##### 객체, 인스턴스의 차이  
 클래스의 타입으로 선언되었을 때 **객체**라고 부르고, 그 **객체**가 메모리에 할당되어 실제 사용될 때 **인스턴스**라고 부른다.  
 **객체**는 현실세계에 가깝고, **인스턴스**는 소프트웨어 세계에 가깝다.
 
 
-* 사전적 의미의 singleton?  
+##### 사전적 의미의 singleton?  
 외동이, 한개의 것, 한장(패)  
 
 
