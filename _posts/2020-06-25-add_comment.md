@@ -24,6 +24,7 @@ install 후 이동하는 페이지에서는 옵션들을 선택하고
 minimal-mistakes 테마에서는 이 때 옵션들을 config.yml에 넣어주면 된다.  
 상단 하늘색상자에는 이슈와 페이지를 url, pathname, title같이 어떤방식으로 연결지을건지 선택하는 부분이다.  
 
+
 ![img](/assets/images/post/200625-2.JPG)
 
 선택한 옵션을 기반으로 만들어진 script부분에서(이미지 하단 보라색상자) issue-term, theme을 기억해서 config.yml에 넣자  
@@ -53,6 +54,15 @@ comments:
     theme: "github-light" # "github-dark"
     issue_term: "pathname"
 ```
+
+
+### pathname 시 유의사항    
+pathname으로 지정을 해줬는데, pathname은 포스트 md파일의 이름으로 연결됨  
+즉, <code>2020-07-23-postname.md</code>가 내가 새로 작성한 포스트라면,  
+블로그에서 해당 포스트의 주소는 <code>hongjuzzang.github.io/postname</code>으로 연결된다  
+그렇기때문에 이미 발행한 포스트md파일의 이름을 다른이름으로 바꾸면, pathname과 댓글이 연결되어있으므로  
+전에 달렸던 댓글은 사라짐 !(ㅠㅠ)  -> blog repository에서 issue 변경해야함  
+
 
 ## 참고  
 [Jekyll 블로그에 utterances로 댓글 기능 추가하기](https://madplay.github.io/post/jekyll-blog-comments-with-utterances)  
