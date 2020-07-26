@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR" 
@@ -26,9 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hongjuzzang/hongjuzzang.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # "/assets/images/bitmoji.png"
-masthead_title           : "🍉 hongju blog"
-# masthead_title           : "🍅 hongju blog"
-# masthead_title           : "🥕 hongju blog"
+masthead_title           : "🐱 hongju blog"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -96,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "hongju"
-  avatar           : "/assets/images/bitmoji2.png"
+  avatar           : "/assets/images/bitmoji3.png"
   bio              : "개발 잘하고 싶어요"
   location         : "Daejeon, South Korea"
   email            : # "95hongju@gmail.com"
