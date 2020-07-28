@@ -539,7 +539,9 @@
     border-bottom: 1px solid $border-color;
 
     &:hover {
-      color: $text-color;
+      // color: $text-color;
+      // darkthemesetting
+      color : #fc6400;
     }
   }
 
