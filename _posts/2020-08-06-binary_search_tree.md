@@ -181,12 +181,26 @@ private Node deleteRec(Node curr, int key) {
 
 ##### print(inOrder)  
 ```java
-	
+public void inOrder() {
+	inOrderRec(root);
+
+}
+
+private void inOrderRec(Node curr) {
+	if (curr != null) {
+		inOrderRec(curr.left);
+		System.out.println(curr.key);
+		inOrderRec(curr.right);
+	}
+
+}
 ```
+재귀형태로 순환하면서 왼쪽하위노드 - 루트노드 -오른쪽하위노드 순으로 중위순회하는 방법  
+전위 순회 : 노드 - 왼쪽 - 오른쪽  
+후위 순회 : 왼쪽 - 오른쪽 - 노드  
 
 ### 전체 코드(github)  
-[github - commit](https://github.com/hongjuzzang/hongjuzzang.github.io/commit/
-)  
+[github - commit](https://github.com/hongjuzzang/hongjuzzang.github.io/commit/1be137093dfc4d5dae54364681b9ebc34a23f3c1)  
 
 ## 풀 수 있는 문제  
 관련해서 풀만한 문제 몇개 총총  
