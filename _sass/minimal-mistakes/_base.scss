@@ -40,11 +40,13 @@ h1 {
 
 h2 {
   font-size: $h-size-2;
-  color:lightgray;
+  //themeColor
+  color:$primary-color;
 }
 
 h3 {
   font-size: $h-size-3;
+  //themeColor
   color:salmon;
 }
 
@@ -171,8 +173,9 @@ td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: 0.8em;
-  // background: $code-background-color;
-  background: #404040;
+  //ThemeColor
+  background: $code-background-color;
+  // background: #404040;
   border-radius: $border-radius;
 
   &:before,

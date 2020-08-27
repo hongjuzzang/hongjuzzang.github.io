@@ -4,11 +4,11 @@
 
 div.highlighter-rouge,
 figure.highlight {
+  // ThemeColor code block
   position: relative;
   margin-bottom: 1em;
   background: $base00;
   color: $base05;
-  // color: $link-color;
   font-family: $monospace;
   font-size: $type-size-8;
   line-height: 1.8;
