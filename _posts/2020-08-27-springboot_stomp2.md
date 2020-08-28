@@ -99,6 +99,52 @@ senderId : 2
 결과 메세지는 *brokerChanner*에 보내지고 메세지브로커가 처리한다
 5. 메시지 브로커는 목적지(destination)과 구독주소가 일치하는 모든 구독자를 찾고, 메시지는 STOMP 프레임으로 인코딩되어 WebSocket 연결로 전송하는 *clientOutboundChannel*을 통해 전송한다
 
+### + Interception  
+`ChannelInterceptor`등록을 통해 모든 메세지를 직접 가로챌 수 있다  
+*WebSocketConfig.java*에서 하단에 메서드를 추가로 작성한다  
+(spring5.0.4 docs에서 setInterceptors로 나와있는데 사용되지않는다고 나와서 대체)
+```java
+	@Override
+    public void configureClientInboundChannel(ChannelRegistration registration) {
+        registration.interceptors(new MyChannelInterceptor());
+    }
+```
+*MyChannelInterceptor*클래스 파일을 따로 작성하지않고 사용할 수 있지만 따로 분리했다  
+
+```java
+public class MyChannelInterceptor implements ChannelInterceptor{
+
+	@Override
+	public Message preSend(Message<?> message, MessageChannel channel) {
+		StompHeaderAccessor accessor = StompHeaderAccessor.wrap(message);
+		StompCommand command = accessor.getCommand();
+		if (command.compareTo(StompCommand.SUBSCRIBE) == 0) {
+			String destination = accessor.getDestination();
+			System.out.println("구독 주소 : " + destination);
+			System.out.println(message);
+		} else if (command.compareTo(StompCommand.CONNECT) == 0) {
+			System.out.println("사용자 연결");
+		} else if (command.compareTo(StompCommand.DISCONNECT) == 0) {
+			System.out.println("사용자 연결 해제");
+		}
+		return message;
+	}
+}
+```
+(이또한 extends ChannelInterceptorAdapter에서 implements ChannelInterceptor로 변경)  
+HeaderAccessor나 SimpMessageHeaderAccessor로 메세지 정보에 접근할 수 있다  
+
+
+내 프로젝트에서는 필요하다고 생각하지않아서 출력문만 확인하는 용으로 두었다  
+이때 command는 어떤 메세지 프레임인지 enum형태로 정의되어있다  
+그래서 같은지 확인하기 위해 `compareTo()`를 사용했다  
+
+다른예제들을 보면 Interceptor하는 방법보단,  
+클라이언트에서 메세지를 송신할때 "type"같은 값을 넣어줘서 메세지 컨트롤러에서 주로 처리를 했다  
+
+사실 인터셉터에서 어떻게 뭘 처리할 수 있는지, 무엇에 쓰이는 용도인지는 잘 모르겠다  
+preSend외에 postSend, afterSendCompletion, preReceive등 다른 메소드들도 있다   
+
 
 
 전체 소스 : [Github Repository](https://github.com/hongjuzzang/springboot-stomp.git)
