@@ -97,7 +97,6 @@ System.out.println(result);
 * 2원소의 합이 다른 원소의 합이 되는 경우 찾기  
 등등이 있다  
 
-#### 
 
 ### [참고] 슬라이딩 윈도우  
 슬라이딩 윈도우는 투 포인터와 유사하게 접근한다  
@@ -117,3 +116,4 @@ System.out.println(result);
 [Two Pointers Technique](https://www.geeksforgeeks.org/two-pointers-technique/)  
 [17. 투 포인터, 슬라이딩 윈도우 (1)](https://code0xff.tistory.com/128)  
 [투 포인터(Two Pointers Algorithm), 슬라이딩 윈도우(Sliding Window)](https://m.blog.naver.com/kks227/220795165570)  
+[Two Pointer Algorithm | Two Sum Problem | Solve DS Problems in O(N) Time](https://www.youtube.com/watch?v=2wVjt3yhGwg)  

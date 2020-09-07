@@ -11,4 +11,4 @@ layout: single
   
 ---
 [resume(준비중)](/english)  
-[포트폴리오(준비중)](/portfolio)  
+[포트폴리오](/portfolio)  

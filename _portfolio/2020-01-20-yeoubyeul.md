@@ -42,11 +42,11 @@ gallery:
 - 일정 수 좋아요 받은 게시물은 명예의 전당 등극  
 - 알림센터 기능, 메인피드(무한스크롤)  
 
-## 시스템 아키텍쳐  
+### 시스템 아키텍쳐  
  ![system architecture](/assets/images/port/yeoubyeol/system_architecture.png)  
 
 
-## 프로젝트 이미지  
+### 프로젝트 이미지  
 {% include gallery %}
 
 
