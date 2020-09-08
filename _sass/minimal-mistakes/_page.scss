@@ -34,7 +34,43 @@ body {
 .search-content {
   flex: 1 0 auto;
 }
+  // wide post version
+  // -----------------------------------------------------
+.wpage {
+  @include breakpoint($large) {
+    float: left;
+    // width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
+  }
 
+  @include breakpoint($x-large) {
+    float:left;
+    // width: calc(100% - #{$right-sidebar-width});
+    padding-right: $right-sidebar-width;
+  }
+}
+.wpage__related {
+  @include clearfix();
+  float: left;
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid $border-color;
+
+  @include breakpoint($large) {
+    float: left;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100% - #{$right-sidebar-width});
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+  // -----------------------------------------------------
 .page {
   @include breakpoint($large) {
     float: right;
