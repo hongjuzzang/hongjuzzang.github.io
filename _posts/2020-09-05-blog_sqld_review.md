@@ -14,7 +14,7 @@ tags:
 너무 먼 것.. 입실시간보다 2시간 일찍 출발 ㅠㅠ  
 
 
-![sql 자격검정 실전문제](/assets/images/post/200905-1.jpg)  
+![sql 자격검정 실전문제](/assets/images/post/200905-1.JPG)  
 시험 공부는 **SQL 자격검정 실전 문제**를 보고 준비했다  
 
 
