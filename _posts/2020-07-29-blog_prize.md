@@ -3,7 +3,7 @@ title:  "뜻밖의 상장"
 excerpt: "생각지도 못한 상장의 정체 ㄴ😮ㄱ"
 
 categories:
-  - Note
+  - Blog
 tags:
   - Blog
 ---

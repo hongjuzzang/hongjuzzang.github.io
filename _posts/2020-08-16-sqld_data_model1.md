@@ -8,7 +8,7 @@ categories:
 tags:
   - SQLD
   - DB
-  - 개념정리
+  - CS
 ---
 ## 데이터 모델링  
 

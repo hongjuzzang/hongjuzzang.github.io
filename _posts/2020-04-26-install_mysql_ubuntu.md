@@ -2,11 +2,11 @@
 title:  "[Ubuntu 18.04] mysqlclient install"
 excerpt: "Ubuntu 18.04에서 mysqlclient 설치 오류 해결하기"
 categories:
-  - TIL
+  - HOW TO
 tags:
   - ubuntu
   - mysqlclient
-  - TIL
+  - HOW TO
 last_modified_at: 2020-06-24
 ---
 ## Ubuntu 18.04에서 mysqlclient 설치 오류 해결하기  

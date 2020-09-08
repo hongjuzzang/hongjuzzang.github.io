@@ -3,7 +3,7 @@ title:  "인생 첫번쨰 면접 후기"
 excerpt: "인생 첫번쨰로 기업면접을 다녀왔다"
 
 categories:
-  - Note
+  - Blog
 tags:
   - Blog
 ---

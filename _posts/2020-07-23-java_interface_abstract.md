@@ -6,7 +6,7 @@ toc_sticky: true
 categories:
   - Java
 tags:
-  - Note
+  - CS
   - Java
 ---
 ## 인터페이스와 추상 클래스  

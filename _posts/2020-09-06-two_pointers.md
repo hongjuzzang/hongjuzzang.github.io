@@ -4,11 +4,11 @@ excerpt: "투 포인터(Two pointers) 알고리즘 설명 및 자바 코드"
 toc: true
 toc_sticky: true
 categories:
-  - Algorithm
+  - CS
 tags:
   - Java
   - Algorithm
-  - 알고리즘
+  - CS
 ---
 ## 투 포인터(Two pointers) 알고리즘  
 ### 개념  

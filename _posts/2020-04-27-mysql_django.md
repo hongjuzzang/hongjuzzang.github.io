@@ -4,10 +4,10 @@ excerpt: "django에서 db.sqlite3 데이터를 mysql로 옮기기"
 toc: true
 toc_sticky: true
 categories:
-  - TIL
+  - HOW TO
 tags:
   - django
-  - TIL
+  - HOW TO
   - mysql
 last_modified_at: 2020-05-06
 ---

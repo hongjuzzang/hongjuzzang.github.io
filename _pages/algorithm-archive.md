@@ -1,7 +1,7 @@
 ---
-title: "Algorithms"
-permalink: /categories/solution/
+title: "Problem Solving"
+permalink: /categories/Solution/
 layout: category
 author_profile: true
-taxonomy: algorithm
+taxonomy: Solution
 ---

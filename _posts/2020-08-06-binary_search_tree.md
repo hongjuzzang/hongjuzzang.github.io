@@ -4,10 +4,11 @@ excerpt: "이진탐색트리(BST) 자료구조 개념 및 코드"
 toc: true
 toc_sticky: true
 categories:
-  - DataStructure
+  - CS
 tags:
   - Java
   - DataStructure
+  - CS
 ---
 ## 이진탐색트리(BST) 자료구조 개념 및 코드  
 ### 개념  

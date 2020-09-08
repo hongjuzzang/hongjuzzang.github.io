@@ -8,7 +8,7 @@ categories:
 tags:
   - SQLD
   - DB
-  - 개념정리
+  - CS
 ---
 ## 엔터티, 속성, 식별자
 

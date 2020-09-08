@@ -4,12 +4,12 @@ excerpt: "Jupyter에서 mysql 데이터읽어서 DataFrame으로 만들기"
 toc: true
 toc_sticky: true
 categories:
-  - TIL
+  - HOW TO
 tags:
   - jupyter
   - pandas
   - mysql
-  - TIL
+  - HOW TO
 last_modified_at: 2020-05-06
 ---
 ## jupyter에서 mysql테이블을 dataframe으로 만들기

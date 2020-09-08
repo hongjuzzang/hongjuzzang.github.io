@@ -9,6 +9,7 @@ tags:
   - SpringBoot
   - STOMP
   - chat
+  - Java
 ---
 ## stomp를 활용한 채팅 하기 - 인트로, STOMP란 무엇일까  
 unithis 프로젝트에서 실시간 채팅을 구현하는데에 많은 구글링을 해야했다(ㅜㅜ)  

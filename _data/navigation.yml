@@ -4,8 +4,8 @@ main:
     url: /about/
   # - title: "Posts"
   #   url: /posts/
-  - title: "Algorithms"
-    url: /categories/solution/
+  - title: "Problem Solving"
+    url: /categories/Solution/
   - title: "Categories"
     url: /categories/
   # - title: "Tags"

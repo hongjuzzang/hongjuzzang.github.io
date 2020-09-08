@@ -6,8 +6,7 @@ toc_sticky: true
 categories:
   - DesignPattern
 tags:
-  - Blog
-  - Note
+  - Java
   - DesignPattern
 ---
 ## 인프런 강의(자바 디자인 패턴의 이해 - Gof Design Pattern)를 듣고 작성하는 수업정리 노트  

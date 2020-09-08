@@ -3,9 +3,9 @@ title:  "기존의 mysql테이블로 Django models 생성하기"
 excerpt: "기존 mysql table schema -> django models !"
 
 categories:
-  - TIL
+  - HOW TO
 tags:
-  - TIL
+  - HOW TO
   - mysql
   - Django
 last_modified_at: 2020-05-19

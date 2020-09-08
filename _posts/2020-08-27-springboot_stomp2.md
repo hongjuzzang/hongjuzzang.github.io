@@ -9,6 +9,7 @@ tags:
   - SpringBoot
   - STOMP
   - chat
+  - Java
 ---
 ## stomp를 활용한 채팅 하기 - springboot 코드 뜯어보기  
 Springboot에서 stomp를 사용하기 위한 준비부터 클라이언트와 프레임을 주고 받는 과정을 정리해보자  

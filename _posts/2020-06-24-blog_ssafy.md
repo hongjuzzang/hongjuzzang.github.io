@@ -3,10 +3,9 @@ title:  "SSAFY 2기 수료식"
 excerpt: "오늘은 SSAFY 2기 수료식이야"
 
 categories:
-  - Note
+  - Blog
 tags:
   - Blog
-  - 대전2기
   - SSAFY
 ---
 ## SSAFY 2기 수료식을 마치며  

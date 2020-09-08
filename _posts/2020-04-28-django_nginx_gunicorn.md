@@ -4,11 +4,11 @@ excerpt: "Gunicorn,nginx,Django로 AWS에 배포 A to Z"
 toc: true
 toc_sticky: true
 categories:
-  - TIL
+  - HOW TO
 tags:
   - gunicorn
   - nginx
-  - TIL
+  - HOW TO
   - gunicorn
 last_modified_at: 2020-05-06
 ---

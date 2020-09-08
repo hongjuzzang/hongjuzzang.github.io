@@ -3,7 +3,7 @@ title:  "SQLD 시험 후기"
 excerpt: "20.09.05 SQLD 시험 본 후기"
 
 categories:
-  - Note
+  - Blog
 tags:
   - Blog
 ---

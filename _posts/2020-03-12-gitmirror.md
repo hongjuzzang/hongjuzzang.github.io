@@ -4,11 +4,11 @@ excerpt: "Gitlab에서 github으로 커밋이력까지 함께 복사하기"
 toc: true
 toc_sticky: true
 categories:
-  - git
+  - HOW TO
 tags:
   - git
   - repository
-  - TIL
+  - HOW TO
 last_modified_at: 2020-05-06
 ---
 # 저장소 리파짓토리 복사해오기

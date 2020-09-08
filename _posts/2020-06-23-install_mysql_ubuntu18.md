@@ -4,11 +4,11 @@ excerpt: "Ubuntu 18.04에서 mysqlclient 5.7말고 8.0 설치하기"
 toc: true
 toc_sticky: true
 categories:
-  - TIL
+  - HOW TO
 tags:
   - ubuntu
   - mysqlclient
-  - TIL
+  - HOW TO
 ---
 ## Ubuntu 18.04에서 mysqlclient 5.7말고 8.0 설치하기  
 현재 ubuntu 18.04에서 mysql 설치하려는데 자꾸 5.7만 깔린다.. 엉엉  
