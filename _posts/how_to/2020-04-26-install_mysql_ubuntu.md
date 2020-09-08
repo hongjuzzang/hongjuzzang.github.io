@@ -1,12 +1,14 @@
 ---
 title:  "[Ubuntu 18.04] mysqlclient install"
 excerpt: "Ubuntu 18.04에서 mysqlclient 설치 오류 해결하기"
+toc: true
+toc_sticky: true
 categories:
-  - HOW TO
+  - HowTo
 tags:
   - ubuntu
   - mysqlclient
-  - HOW TO
+  - HowTo
 last_modified_at: 2020-06-24
 ---
 ## Ubuntu 18.04에서 mysqlclient 설치 오류 해결하기  
@@ -15,11 +17,13 @@ last_modified_at: 2020-06-24
 
 
 ### ERROR: Command errored out with exit status 1
-gunicorn 서비스 시작 시 mysqlclient를 설치하지않았다고해서  
-pip install mysqlclient를 했지만 이런 오류가 났다.  
+gunicorn 서비스 시작 시 mysqlclient를 설치하지 않았다고해서  
+pip install mysqlclient를 했지만 이런 오류가 났다  
 ```
 ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
 ```
+
+
 다음 명령어로 설치
 ```
 $ sudo apt-get install libssl-dev
@@ -35,6 +39,7 @@ $ pip install mysqlclient
 ```
 $ sudo apt-get install python3.7-dev # 맞는 버전 입력
 ```
+
 
 ## 참고
 [ubuntu 18.04 LTS, Django2 mysqlclient 설치 오류](https://blog.boxcorea.com/wp/archives/2702)  

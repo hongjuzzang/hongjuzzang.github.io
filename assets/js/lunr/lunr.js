@@ -2869,7 +2869,7 @@ lunr.Query.presence = {
 }
 
 /**
- * A single clause in a {@link lunr.Query} contains a term and details on how to
+ * A single clause in a {@link lunr.Query} contains a term and details on HowTo
  * match that term against a {@link lunr.Index}.
  *
  * @typedef {Object} lunr.Query~Clause

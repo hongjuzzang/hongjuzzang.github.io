@@ -4,7 +4,7 @@ excerpt: "데이터 모델링 (개념, 필요한 이유, 유의점 등)"
 toc: true
 toc_sticky: true
 categories:
-  - SQLD
+  - CS
 tags:
   - SQLD
   - DB

@@ -4,7 +4,7 @@ excerpt: "엔터티, 속성, 식별자"
 toc: true
 toc_sticky: true
 categories:
-  - SQLD
+  - CS
 tags:
   - SQLD
   - DB

@@ -4,11 +4,11 @@ excerpt: "Ubuntu 18.04에서 mysqlclient 5.7말고 8.0 설치하기"
 toc: true
 toc_sticky: true
 categories:
-  - HOW TO
+  - HowTo
 tags:
   - ubuntu
   - mysqlclient
-  - HOW TO
+  - HowTo
 ---
 ## Ubuntu 18.04에서 mysqlclient 5.7말고 8.0 설치하기  
 현재 ubuntu 18.04에서 mysql 설치하려는데 자꾸 5.7만 깔린다.. 엉엉  
@@ -136,5 +136,5 @@ mysql 권한 종류
 
 ## 참고
 [How do I uninstall and reinstall MySQL?](https://www.digitalocean.com/community/questions/how-do-i-uninstall-and-reinstall-mysql)  
-[How to Install MySQL 8.0 on Ubuntu 18.04](https://www.fosstechnix.com/install-mysql-8-on-ubuntu/)  
+[HowTo Install MySQL 8.0 on Ubuntu 18.04](https://www.fosstechnix.com/install-mysql-8-on-ubuntu/)  
 [[MYSQL] 계정 생성 및 권한 관리(GRANT)](https://extbrain.tistory.com/44)  

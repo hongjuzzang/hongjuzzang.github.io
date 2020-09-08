@@ -4,12 +4,12 @@ excerpt: "Jupyter에서 DataFrame을 mysql에 넣기"
 toc: true
 toc_sticky: true
 categories:
-  - HOW TO
+  - HowTo
 tags:
   - jupyter
   - pandas
   - mysql
-  - HOW TO
+  - HowTo
 last_modified_at: 2020-05-25
 ---
 ## Jupyter에서 DataFrame을 mysql에 넣기

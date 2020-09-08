@@ -4,11 +4,11 @@ excerpt: "minimal-mistakes에 utterances 댓글기능 추가하기 A to Z"
 toc: true
 toc_sticky: true
 categories:
-  - GithubBlog
+  - HowTo
 tags:
   - GithubBlog
   - Jekyll
-  - HOW TO
+  - HowTo
 ---
 ## minimal-mistakes에 utterances 댓글기능 추가하기 A to Z  
 보통 disqus를 많이쓰는데 github issue를 이용한 utterances를 이용해 댓글 기능을 추가해보자  

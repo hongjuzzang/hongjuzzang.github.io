@@ -4,15 +4,21 @@ excerpt: "Gitlab에서 github으로 커밋이력까지 함께 복사하기"
 toc: true
 toc_sticky: true
 categories:
-  - HOW TO
+  - HowTo
 tags:
   - git
   - repository
-  - HOW TO
-last_modified_at: 2020-05-06
+  - HowTo
+last_modified_at: 2020-09-09
 ---
-# 저장소 리파짓토리 복사해오기
-## A리파짓토리를 B로 옮기기  
+## Gitlab에서 github으로 커밋이력까지 함께 복사하기  
+Gitlab에서 하던 프로젝트를 Github으로 옮겨오는데  
+커밋 로그를 포기할 순 없지..  
+
+Gitlab에서 Github으로 옮기는 방법이지만  
+Github에서 Github도 가능(아마도)  
+
+### Repository A를 Repository B로 옮기기  
 1. git bash를 연다  
 2. A를 clone받기  
 ```
@@ -29,7 +35,13 @@ $ cd ..
 $ rm -rf [A 폴더]
 ```
 
-## lfs를 이용하여 큰 파일을 포함하는 리파짓토리 미러링하기  
+
+
+### lfs를 이용하여 리파짓토리 미러링하기  
+github의 경우 100MB 이상의 커밋은 위의 방법으로 옮길 수 없다  
+LFS를 사용해서 용량이 큰 커밋이력을 옮기는 방법은 다음과 같다  
+
+
 1. git bash를 연다  
 2. A를 clone받기  
 ```
@@ -56,8 +68,16 @@ $ git lfs push --all https://[B 주소]
 $ cd ..
 $ rm -rf [A폴더]
 ```
-## BFG Repo-Cleaner 사용하기(커밋이력에도 100MB가 넘는 파일이 있는 경우 + 100MB넘는 파일이 있을 때)  
-커밋이력 중에서도  100MB가 넘는 파일이 있으면 remote rejected가 붙은 오류가 계속 난다(github에 올릴때)  
+
+
+### BFG Repo-Cleaner 사용하기
+위의 방법에서 `remote rejected`같은 오류가 난다면..  
+
+
+검색하니까 커밋이력 중에서도 100MB가 넘는 파일이 있기 때문이라고한다(github에 올릴때)  
+커밋이력에도 100MB가 넘는 파일이 있는 경우 + 100MB넘는 파일이 있을 때 방법은 다음과 같다  
+
+
 1. A를 clone을 bare로 받는다
 ```
 $ git clone --mirror [A.git]
@@ -90,7 +110,7 @@ $ git push # push하면 변경된 상태를 remote repository에도 업데이트
 
 
 
-## 참고
+### 참고
 [Duplicating a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository)  
 [BFG RepoCleaner](https://rtyley.github.io/bfg-repo-cleaner/)  
 [Github에 100MB 이상의 파일을 올리는 방법](https://medium.com/@stargt/github%EC%97%90-100mb-%EC%9D%B4%EC%83%81%EC%9D%98-%ED%8C%8C%EC%9D%BC%EC%9D%84-%EC%98%AC%EB%A6%AC%EB%8A%94-%EB%B0%A9%EB%B2%95-9d9e6e3b94ef)
