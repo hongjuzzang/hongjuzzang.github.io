@@ -3,9 +3,9 @@ title:  "SQLD 시험 후기"
 excerpt: "20.09.05 SQLD 시험 본 후기"
 
 categories:
-  - Blog
+  - Review
 tags:
-  - Blog
+  - Review
 ---
 ## 20.09.05 SQLD 시험 본 후기  
 오늘 제 38회 SQL 개발자(SQLD) 시험을 보고왔다  

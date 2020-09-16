@@ -3,9 +3,9 @@ title:  "인생 첫번째 면접 후기"
 excerpt: "인생 첫번째로 기업면접을 다녀왔다"
 
 categories:
-  - Blog
+  - Review
 tags:
-  - Blog
+  - Review
 ---
 ## 인생 첫번째로 기업면접을 다녀왔다
 ### 아침부터 식은땀 빼기  
