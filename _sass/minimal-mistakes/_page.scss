@@ -39,12 +39,14 @@ body {
 .wpage {
   @include breakpoint($large) {
     float: left;
-    // width: calc(100% - #{$right-sidebar-width-narrow});
+    // width: 1200px;
+    width: 100%;
     padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
     float:left;
+    width:100%;
     // width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
@@ -59,6 +61,7 @@ body {
   @include breakpoint($large) {
     float: left;
     width: calc(100% - #{$right-sidebar-width-narrow});
+    // width: 100%;
   }
 
   @include breakpoint($x-large) {
