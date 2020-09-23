@@ -336,12 +336,16 @@ nav {
 }
 
 /*
-   Global animation transition
-   ========================================================================== */
+Global animation transition
+========================================================================== */
+strong{
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+color:darkcyan;
+}
 
 b,
 i,
-strong,
 em,
 blockquote,
 p,
