@@ -1,6 +1,6 @@
 ---
-title:  "브라우저 동작 방법"
-excerpt: "URL을 입력한 후 화면에 보이기까지 (1)"
+title:  "브라우저 동작 방법 - 1"
+excerpt: "URL을 입력한 후 화면에 보이기까지"
 toc: true
 toc_sticky: true
 categories:
@@ -8,7 +8,7 @@ categories:
 tags:
   - Web Browser
 ---
-## URL을 입력한 후 화면에 보이기까지 (1)   
+## URL을 입력한 후 화면에 보이기까지   
 웹상에서 화면에 보이기까지의 과정을 정리해보자   
 구글 웹사이트에 들어가는 과정을 단순하게 정리하자면,  
 
@@ -43,7 +43,7 @@ tags:
 브라우저의 사용자 인터페이스는 일반적으로 <ins>주소 표시줄, 이전버튼, 다음버튼, 북마크, 새로고침 버튼, 정지버튼, 홈 버튼 등</ins>이 있다  
 
 #### 브라우저 구조  
-![high level structure of a browser](https://miro.medium.com/max/700/1*aDQUwsijfEQa6vkhY91N3w.png)  
+![high level structure of a browser](/assets/images/post/200923-0.png)  
 
 * 사용자 인터페이스(User Interface)  
   주소 표시줄, 이전/다음 버튼, 북마크 메뉴 등. 요청한 페이지를 보여주는 창을 제외한 나머지 모든 부분이다  
@@ -106,7 +106,7 @@ DNS 해석기는 다음에 누군가가 example.com을 탐색할 때 좀 더 빠
 ### 🎈3. 획득한 IP주소에 있는 서버와 TCP 3 Way Handshake를 진행한다  
 
 
-![3 way handshake](https://www.coengoedegebure.com/content/images/2018/09/handshake.png)  
+![3 way handshake](/assets/images/post/200923-2.png)  
 TCP / IP 클라이언트 컴퓨터가 서버에 연결하는 방법을 **Three-Way Handshake** 라고 한다  
 여기에는 메시지 라고 부르는 세 개의 신호 전송이 포함된다  
 
@@ -140,3 +140,4 @@ SYN 데이터 패킷은 클라이언트에서 서버로 연결하기위한 요�
 [Resolver, DNS Resolver, DNS Client   해결자, 리졸버, DNS 해석기, DNS 변환기](http://www.ktword.co.kr/abbr_view.php?m_temp1=1487)  
 [DNS 기본 동작 설명](https://www.netmanias.com/ko/post/blog/5353/dns/dns-basic-operation)  
 [The TCP Handshake Protocol](https://medium.com/0xcode/the-tcp-handshake-protocol-9c0b54c99f1c)  
+[Building Java Client/Server Applications with TCP](https://www.luxoft-training.com/news/building-java-client-server-applications-with-tcp/)  
