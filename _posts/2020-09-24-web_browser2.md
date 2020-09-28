@@ -60,6 +60,7 @@ HTTP 메세지의 페이로드는 `Body`이라고 한다
 
 ---
 ### 🎈5. 서버에서 보낸 Http Response를 통해 HTML 파일을 받는다  
+#### Http Response  
 서버에서 클라이언트에게 보내는 응답 메세지의 구조는 다음과 같다  
 ![http response](/assets/images/post/200924-3.png)  
 1. 상태 표시 라인(status Line)  
