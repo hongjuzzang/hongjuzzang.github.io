@@ -145,10 +145,13 @@ private static void update(int node, int start, int end, int index, int diff) {
  ```
 
 ### 전체 코드(github)  
-[github - commit](https://github.com/hongjuzzang/hongjuzzang.github.io/commit/1be137093dfc4d5dae54364681b9ebc34a23f3c1)  
+[github - commit](https://github.com/hongjuzzang/hongjuzzang.github.io/commit/289e67b50e66c49e1f3a2b552654fd680418e00f)  
 
 ## 풀 수 있는 문제  
 관련해서 풀만한 문제 몇개 총총  
+[백준 - 구간 합 구하기](https://www.acmicpc.net/problem/2042)  
+[백준 - 구간 곱 구하기](https://www.acmicpc.net/problem/11505)  
+[백준 - 최솟값과 최댓값](https://www.acmicpc.net/problem/2357)  
 
 
 ## 참고  
