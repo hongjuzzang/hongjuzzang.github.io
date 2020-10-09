@@ -1,5 +1,5 @@
 ---
-title:  "Spring 알아보기 (작성중)"
+title:  "Spring 알아보기"
 excerpt: "Spring framework 알아보기"
 toc: true
 toc_sticky: true
@@ -10,10 +10,11 @@ tags:
   - SpringBoot
 ---
 ## Spring framework 알아보기  
-후후 스프링을 배우고 프로젝트를 해봤지만 살짝 가물가물한 감이 없지않다  
+후후 스프링을 배우고 프로젝트를 해봤지만 원리, 개념 부분에서 살짝 가물가물하다  
+공부할겸 작성하는 스프링 포스트 ~~ 
 
 ### 🌱 Spring이 무엇인가  
-**스프링 프레임워크(Spring Framework)**는 자바 플랫폼을 위한 오픈 소스 애플리케이션 프레임워크로서 간단히 스프링(Spring)이라고도 한다  
+**스프링 프레임워크(Spring Framework)**는 자바 플랫폼을 위한 오픈 소스 애플리케이션 프레임워크로서 간단히 스프링(Spring)이라고 한다  
 동적인 웹 사이트를 개발하기 위한 여러 가지 서비스를 제공하고 있다  
 
 <br />
@@ -98,13 +99,53 @@ tags:
 
 <br />
 
-### 🌱 Spring Filter, Interceptor  
-필터
+### 🌱 Spring Filter와 Interceptor의 차이점  
+#### 1. 범위와 사양  
+ - Filter  
+  > Spring Context 외부에 존재하여 스프링과 무관한 자원에 대해 동작한다(요청 내용 변경, 인코딩 변환 등)  
+  > Filter는 서블릿 사양(Servlet Specifications)에 의해 정의된다  
+  > 웹 프로그램에서만 사용할 수 있다  
+- Interceptor  
+  > Spring Container내부에 있다 -> Spring의 context에 등록을 한다    
+  > 웹 프로그램, 어플리케이션 프로그램, 스윙(swing) 프로그램에서 사용할 수 있다  
+
+#### 2. 트리거 시간  
+순서 : 필터 > 서블릿 > 인터셉터 > 컨트롤러  
+ - Filter  
+  > 필터는 요청이 서블릿에 전달되기 전에 처리한다  
+  > 요청이 수행되고 난 후 Front-end로 돌아가기전에도 필터를 거친다  
+- Interceptor  
+  > 메서드가 컨트롤러에 도달하기 전에 적용된다  
+
+#### 3. 접근과 요청  
+ - Filter  
+  > 거의 모든 요청에서 작동할 수 있다  
+  > Context 및 스택에 접근할 수 없다  
+- Interceptor  
+  > 작업 요청(Action request)에서만 작동한다  
+  > context의 객체(Bean)와 스택에 접근할 수 있다   
 
 <br />
 
 ### 🌱 Annotation  
+소스코드에 `@[어노테이션]`의 형태로 표현하며 클래스, 필드, 메소드의 선언부에 적용할 수 있는 특정기능이 부여된 표현법을 말한다  
 
+
+애플리케이션 규모가 커질수록, xml 환경설정이 매우 복잡해지는데,  
+이러한 어려움을 개선시키기 위해 자바 파일에 어노테이션을 적용해서 개발자가 설정 파일 작업을 할 때 발생시키는 오류를 최소화해주는 역할을 한다  
+
+
+어노테이션 사용으로 소스 코드에 메타데이터를 보관할 수 있고, 컴파일 타임의 체크뿐 아니라 어노테이션 API를 사용해 코드 가독성도 높여준다  
+
+* Annotation 몇 개  
+```
+@RequestMapping : 특정 메소드에서 요청되는 URL과 매칭시키는 어노테이션
+@Autowired : 자동으로 의존성 주입하기 위한 어노테이션, type에 따라 알아서 Bean 을 주입한다  
+@Controller : dispatcher-servlet.xml에서 bean 태그로 정의하는 것과 같음  
+@RestController : @ResponseBody를 모든 메소드에 적용한다  
+@Service : 비즈니스 로직 처리하는 서비스 클래스에 등록한다
+@Repository : DAO에 등록한다
+```
 
 <br />
 
@@ -115,9 +156,35 @@ tags:
  > 즉, 객체지향적인 원리에 충실하면서 환경과 기술에 종속되지않고 필요에 따라 재활용 될수 있게 설계된 오브젝트  
 
 
+* AOP(Aspect-oriented Programming)    
+ > 관점 지향 프로그래밍 : 공통의 관심사항을 적용해서 발생하는 의존 관계의 복잡성과 코드 중복을 해소해준다  
+ > 각 클래스에서 공통 관심 사항을 구현한 모듈에 대한 의존관계를 갖기 보단, Aspect를 이용해 핵심 로직을 구현한 각 클래스에 공통 기능을 적용한다  
+ > 간단한 설정만으로도 공통 기능을 여러 클래스에 적용할 수 있는 장점이 있다  
+ > 핵심 로직 코드를 수정하지 않고도 웹 애플리케이션의 보안, 로깅, 트랜잭션과 같은 공통 관심 사항을 AOP를 이용해 간단하게 적용할 수 있다  
+
+* DI(Dependency Injection)  
+> 의존성 주입 : 설정 파일을 통해 객체간의 의존관계를 설정하는 역할을 한다  
+> 컨테이너에 의해 객체를 사용할 수 있도록 생성 후, 생성자나 setter 같은 메서드를 통해 사용하는 것  
+
+* IoC(Inversion of Control)  
+ > 제어 반전 : 프로그램의 흐름 구조가 변화함  
+ > 인스턴스의 생성부터 소멸까지 개발자가 아닌 컨테이너가 대신 관리해 주는 것  
+ > 인스턴스 생성의 제어를 서블릿과 같은 bean을 관리해주는 컨테이너가 관리한다  
+ > 설계가 깔끔해지고 유연성과 확장성을 증가시킨다  
+
+* DS(Dispatcher Servlet)  
+ > 서블릿 컨테이너에서 HTTP 프로토콜을 통해 들어오는 모든 요청을 제일 앞에서 처리해주는 프론트 컨트롤러  
+ > 공통 처리작업을 DS가 처리하고 적절한 세부 컨트롤러(Handler)로 작업을 위임해준다  
+ > 기존에 몯느 서블릿에 대해 url매핑을 web.xml에 모두 등록했지만, 모든 요청을 핸들링하게되면서 web.xml의 역할이 축소하고 편리해졌다  
+ > MVC패턴으로 처리가 가능해진다  
+
 ---
 ### 참고  
 [How Java Spring MVC Works: Spring MVC Request Flow Explained Step by Step](https://tutorialspedia.com/how-java-spring-mvc-works-spring-mvc-request-flow-explained-step-by-step/)  
 [MVC](https://developer.mozilla.org/ko/docs/Glossary/MVC)  
 [POJO - (Plain Old Java Object)란 뭘까?](https://siyoon210.tistory.com/120)  
 [The difference between filters and interceptors in java](https://programmer.help/blogs/the-difference-between-filters-and-interceptors-in-java.html)  
+[(Spring)Filter와 Interceptor의 차이](https://supawer0728.github.io/2018/04/04/spring-filter-interceptor/)  
+[[Spring] Spring Annotation의 종류와 그 역할](https://gmlwjd9405.github.io/2018/12/02/spring-annotation-types.html)  
+[웹 = 스프링](https://gyoogle.dev/blog/interview/%EC%9B%B9.html)  
+[[Spring]Dispatcher-Servlet이란?](https://mangkyu.tistory.com/18)
