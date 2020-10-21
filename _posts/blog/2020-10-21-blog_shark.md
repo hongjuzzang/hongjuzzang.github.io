@@ -31,7 +31,7 @@ tags:
 ✅[어른 상어](https://www.acmicpc.net/problem/19237)  
 청소년 상어는 더욱 자라 어른 상어가 되었다.  
 
-[마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)  
+✅[마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)  
 어른 상어가 마법사가 되었고, 파이어볼을 배웠다.  
 
 ✅[마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)  
