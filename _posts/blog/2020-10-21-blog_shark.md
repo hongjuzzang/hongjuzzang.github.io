@@ -24,7 +24,7 @@ tags:
 ✅[아기 상어](https://www.acmicpc.net/problem/16236)  
 
 
-[청소년 상어](https://www.acmicpc.net/problem/19236)  
+✅[청소년 상어](https://www.acmicpc.net/problem/19236)  
 아기 상어가 성장해 청소년 상어가 되었다.  
 
 
