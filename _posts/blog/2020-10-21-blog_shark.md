@@ -6,6 +6,7 @@ categories:
   - Blog
 tags:
   - Blog
+last_modified_at: 2020-10-24
 ---
 ## 상어의 성장과정을 따라가는 발자취  
 ![shark](/assets/images/post/201021-0.png)  
@@ -37,5 +38,9 @@ tags:
 ✅[마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)  
 마법사 상어가 토네이도를 배웠고, 오늘은 토네이도를 크기가 N×N인 격자로 나누어진 모래밭에서 연습하려고 한다.   
 
-[마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)  
+✅[마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)  
 마법사 상어는 파이어볼과 토네이도를 조합해 파이어스톰을 시전할 수 있다.   
+
+
++ 20-10-24 추가  
+상어 끝 ~~ 🦈🦈🦈  
