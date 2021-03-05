@@ -1,11 +1,11 @@
 ---
 title:  "페이지네이션 달고싶다"
 excerpt: "[속보] 감당하기 힘든 스크롤...누리꾼 불만 쏟아져"
-
 categories:
   - Blog
 tags:
   - Blog
+last_modified_at: 2021-03-01
 ---
 ## [속보] 감당하기 힘든 스크롤...누리꾼 불만 쏟아져  
 문제풀이가 쌓이고 쌓일수록 스크롤도 길어진다..  
@@ -36,3 +36,9 @@ jekyll-paginate-v2까지 깔고 차근차근 따라했는데 외않데 !!! 😫�
 * 나중에 보면서 따라할 것  
 [Jekyll 사이트에 Pagination추가하기](https://poqw.github.io/pagination/)  
 [Jekyll::Paginate V2::Generator](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration)
+
+
+##### 21년 3월 1일 추가  
+간만에 페이지네이션이나 함 해보까 해서 봤더니..  
+띠용 ??!  
+![jekyll](/assets/images/post/210301-1.png)

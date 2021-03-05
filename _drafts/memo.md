@@ -1,0 +1,1 @@
+[resume(준비중)](/english)  
