@@ -217,3 +217,4 @@ private void inOrderRec(Node curr) {
 ### 같이보면 좋을 것들  
 [Red-Black Tree | Set 1 (Introduction)](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)  
 [Red-Black Tree](https://www.programiz.com/dsa/red-black-tree)  
+[이진 검색 트리(BST)](https://www.scaler.com/topics/data-structures/binary-search-tree/)
